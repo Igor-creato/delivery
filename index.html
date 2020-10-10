@@ -20,7 +20,7 @@
              <img src="img/user.svg" alt="" class="button-img">
              <span class="button-txt">Войти</span>
             </button>
-          <button class="button">
+          <button class="button" id="card-button">
              <img src="img/icon container.svg" alt="" class="button-img">
              <span class="button-txt">Корзина</span></button>
         </div>
@@ -43,7 +43,7 @@
           <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
        </div>
        <div class="cards">
-          <a href="restaraunt.html" class="card">
+          <a href="restaraunt.html" class="card"  data-aos="flip-left" data-aos-duration="1000">
              <img src="img/cards/image.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -61,7 +61,7 @@
              </div>
           </a>
           <!-- card -->
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
              <img src="img/cards/image-1.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -79,7 +79,7 @@
              </div>
           </div>
           <!-- card -->
-          <div class="card">
+          <div class="card"  data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
              <img src="img/cards/image-2.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -97,7 +97,7 @@
              </div>
           </div>
           <!-- card -->
-          <div class="card">
+          <div class="card"   data-aos="flip-left" data-aos-duration="1000">
              <img src="img/cards/image-3.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -115,7 +115,7 @@
              </div>
           </div>
           <!-- card -->
-          <div class="card">
+          <div class="card"   data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
              <img src="img/cards/image-4.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -133,7 +133,7 @@
              </div>
           </div>
           <!-- card -->
-          <div class="card">
+          <div class="card"   data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
              <img src="img/cards/image-5.jpg" alt="" class="card-img">
              <div class="card-txt">
                 <div class="card-heading">
@@ -176,5 +176,69 @@
           </div>
        </div>
     </footer>
+    <!-- modal -->
+    <div class="modal">
+       <div class="modal-dialog">
+          <div class="modal-header">
+             <h3 class="modal-title">Корзина</h3>
+             <button class="close">&times;</button>
+          </div>
+          <!-- header -->
+          <div class="modal-body">
+             <div class="food-row">
+                <span class="food-name">Ролл угорь стандарт</span>
+                <strong class="food-price">250 ₽</strong>
+                <div class="food-counter">
+                   <button class="counter-button">-</button>
+                   <span class="counter">1</span>
+                   <button class="counter-button">+</button>
+                </div>
+             </div>
+             <div class="food-row">
+                <span class="food-name">Ролл угорь стандарт</span>
+                <strong class="food-price">250 ₽</strong>
+                <div class="food-counter">
+                   <button class="counter-button">-</button>
+                   <span class="counter">1</span>
+                   <button class="counter-button">+</button>
+                </div>
+             </div>
+             <div class="food-row">
+                <span class="food-name">Ролл угорь стандарт</span>
+                <strong class="food-price">250 ₽</strong>
+                <div class="food-counter">
+                   <button class="counter-button">-</button>
+                   <span class="counter">1</span>
+                   <button class="counter-button">+</button>
+                </div>
+             </div>
+             <div class="food-row">
+                <span class="food-name">Ролл угорь стандарт</span>
+                <strong class="food-price">250 ₽</strong>
+                <div class="food-counter">
+                   <button class="counter-button">-</button>
+                   <span class="counter">1</span>
+                   <button class="counter-button">+</button>
+                </div>
+             </div>
+             <!-- row -->
+          </div>
+          <!-- body -->
+          <div class="modal-footer">
+             <span class="modal-pricetag">1250 ₽</span>
+             <div class="footer-buttons">
+                <button class="button button-primary">Оформить заказ</button>
+                <button class="button">Отмена</button>
+             </div>
+          </div>
+          <!-- footer -->
+       </div>
+       <!-- dialog -->
+    </div>
+    <!-- modal -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>
