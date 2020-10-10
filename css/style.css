@@ -192,6 +192,10 @@ body {
 
 }
 
+.card-info-wrapper {
+   min-height: 130px;
+}
+
 .card-price-bold {
    font-weight: bold;
    font-size: 20px;
