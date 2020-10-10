@@ -137,6 +137,10 @@ body {
    text-decoration: none;
 }
 
+.card-restaraunt {
+   min-height: 500px;
+}
+
 .card-img {
    width: 384px;
    height: 250px;
